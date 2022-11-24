@@ -1,0 +1,139 @@
+body {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  margin: 0;
+  background-color: #ff64984d;
+}
+
+.menu {
+  display: flex;
+  margin: 0;
+}
+
+.menu > li {
+  list-style-type: none;
+  margin-right: 3rem;
+  margin-left: 3rem;;
+}
+
+.menu > li > a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #121213;
+  font-size: 18px;
+}
+
+.menu > li > a:hover {
+  background-color: #a09aff;
+  padding: 5px;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:#686AAC;
+  background-color: white;
+  height: 75px;
+}
+
+.portfolio {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.about {
+  text-align: center;
+  margin-top: 3rem;
+  color:mediumslateblue;
+}
+
+.home {
+  text-align: center;
+  margin-top: 3rem;
+  color:mediumslateblue;
+}
+
+.contact {
+  text-align: center;
+  margin-top: 3rem;
+  
+}
+
+.github {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 3rem;
+}
+
+.github > a {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-weight:bold;
+  height: 100px;
+  width: 200px;
+  margin-right: 2rem;
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  background-color: #e5a6a6;
+  border-radius: .5rem;
+  text-align: center;
+}
+
+.github > a:hover{
+  background-color:darkviolet;
+}
+
+.photo_author {
+  width: 50px;
+}
+
+.image_footer {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  color:mediumslateblue;
+
+}
+
+.image_footer > div > p {
+  margin: 0px;
+}
+
+h1 {
+  color: mediumslateblue;
+}
+
+h2 {
+  color:mediumslateblue;
+}
+
+.conectar {
+  display: flex;
+  justify-content: space-evenly
+}
+
+.imagecontact {
+  width: 400px;
+}
+
+.contact_form {
+  margin-top: 80px;
+}
+
+.about_form {
+  width: 400px;
+}
+
+textarea {
+  height: 200px;
+  text-align: center; 
+}
+
+.portfolio_form {
+  width: 200px;
+}
